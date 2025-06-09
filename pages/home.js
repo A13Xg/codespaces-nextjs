@@ -10,7 +10,7 @@ export default function Home() {
   const [blinkColor, setBlinkColor] = useState('red');
   const [fadeOverlay, setFadeOverlay] = useState(true);
   const [codeWord] = useState(() => {
-    const words = ['Falcon', 'Pineapple', 'Shadow', 'Echo', 'Nimbus'];
+    const words = ['Falcon', 'Pineapple', 'Shadow', 'Echo', 'Nimbus', 'Temp'];
     return words[Math.floor(Math.random() * words.length)];
   });
 
