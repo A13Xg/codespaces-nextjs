@@ -1,0 +1,44 @@
+/* styles/globals.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+}
+
+input, button {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+input {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
